@@ -9,6 +9,7 @@ html {
   font-size: 20px;
   margin: 0;
   padding: 0;
+  background-color: black;
   overflow-x: hidden;
 }
 
@@ -25,8 +26,8 @@ html {
 .container {
   display: flex;
   flex-direction: row;
-  width: 80%;
-  max-width: 20rem;
+  width: 100vw;
+  max-width: 100vw;
   gap: 0.5rem;
 }
 .container .column {
@@ -38,44 +39,44 @@ html {
   gap: inherit;
 }
 .container .column-1 .item-1 {
-  height: 4rem;
-  animation: background 5s 150ms infinite ease-in-out;
+  height: 8rem;
+  animation: background 5s 450ms infinite ease-in-out;
 }
 .container .column-1 .item-2 {
-  height: 6rem;
-  animation: background 5s 274ms infinite ease-in-out;
+  height: 14rem;
+  animation: background 5s 574ms infinite ease-in-out;
 }
 .container .column-1 .item-3 {
-  height: 3rem;
-  animation: background 5s 350ms infinite ease-in-out;
+  height: 8rem;
+  animation: background 5s 850ms infinite ease-in-out;
 }
 .container .column-2 .item-1 {
-  height: 4rem;
-  animation: background 5s 150ms infinite ease-in-out;
+  height: 10rem;
+  animation: background 5s 350ms infinite ease-in-out;
 }
 .container .column-2 .item-2 {
-  height: 9rem;
-  animation: background 5s 274ms infinite ease-in-out;
+  height: 20rem;
+  animation: background 5s 450ms infinite ease-in-out;
 }
 .container .column-2 .item-3 {
-  height: 3rem;
-  animation: background 5s 350ms infinite ease-in-out;
+  height: 10rem;
+  animation: background 5s 550ms infinite ease-in-out;
 }
 .container .column-3 .item-1 {
-  height: 6rem;
-  animation: background 5s 280ms infinite ease-in-out;
+  height: 12rem;
+  animation: background 5s 580ms infinite ease-in-out;
 }
 .container .column-3 .item-2 {
-  height: 5rem;
-  animation: background 5s 95ms infinite ease-in-out;
+  height: 14rem;
+  animation: background 5s 395ms infinite ease-in-out;
 }
 .container .column-3 .item-3 {
-  height: 3rem;
-  animation: background 5s 350ms infinite ease-in-out;
+  height: 8rem;
+  animation: background 5s 750ms infinite ease-in-out;
 }
 .container .column .item {
   width: inherit;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
