@@ -16,6 +16,8 @@ html {
 * {
     box-sizing: border-box;
 }
+$svg-shadow: filter drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+
 
 :root {
     --image-1: url(https://cms2.seek4cars.net/media/hb1lqnf4/anitest-1.jpg);
@@ -29,9 +31,9 @@ html {
 }
 
 $columns: (
-    ((8rem, 450ms), (14rem, 574ms), (8rem, 850ms)),
-    ((10rem, 350ms), (20rem, 450ms), (10rem, 550ms)),
-    ((12rem, 580ms), (14rem, 395ms), (8rem, 750ms))
+    ((8rem, 150ms), (18rem, 450ms), (8rem, 750ms)),
+    ((10rem, 250ms), (20rem, 550ms), (10rem, 850ms)),
+    ((14rem, 350ms), (14rem, 650ms), (10rem, 950ms))
 );
 
 
@@ -83,6 +85,7 @@ $columns: (
 @keyframes background {
     0% {
         background-image: var(--image-1);
+        
     }
 
     30% {
